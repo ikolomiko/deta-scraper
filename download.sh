@@ -11,6 +11,8 @@ list="appids.txt"
 until=200
 i=0
 
+mkdir -p apks
+
 # Main loop
 for line in $(cat $list); do
   # if (i >= until) break;
